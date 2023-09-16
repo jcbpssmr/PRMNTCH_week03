@@ -5,16 +5,16 @@ import java.util.Arrays;
 public class week03_labs_02 {
 
 	public static void main(String[] args) {
-		System.out.println("test");
-		thisIsAMethod("Testing the method");
-		int [] numbers = {5,6,8,3,2,-1,-100};
+		//System.out.println("test");
+		//thisIsAMethod("Testing the method");
+		//int [] numbers = {5,6,8,3,2,-1,-100};
 		String [] match = {"one", "two", "three", "four", "five","no","no"};
-		smallestInArray(numbers);
-		arrayAverage(numbers);
+		//smallestInArray(numbers);
+		//arrayAverage(numbers);
 		matching(match);
-		System.out.println(summing(match));
-		System.out.println(reverseString("racecar"));
-		System.out.println(isPalindrome("racecar"));
+		//System.out.println(summing(match));
+		//System.out.println(reverseString("racecar"));
+		//System.out.println(isPalindrome("racecar"));
 
 	}
 	public static void thisIsAMethod (String test) {
@@ -69,7 +69,6 @@ public class week03_labs_02 {
 	// 21. Write and test a method that takes a string and returns true if the string is a palindrome
 	public static boolean isPalindrome (String string) {
 		if (string.equals(reverseString(string))) {
-			System.out.println("what??");
 			return true;
 		}else {
 			return false;
